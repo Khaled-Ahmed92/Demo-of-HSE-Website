@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 70px;
+    margin-right: 10px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 25px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.about-section {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.about-content {
+    margin-bottom: 30px;
+}
+
+.about-content h3 {
+    font-size: 25px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 18px;
+    color: #666;
+}
+
+.team-section {
+    margin-top: 50px;
+}
+
+.team h3 {
+    font-size: 50px;
+    color: #333;
+}
+
+.team {
+    display: flex;
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    flex: 1;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.team-member p {
+    font-size: 18px;
+    color: #333;
+}
+
